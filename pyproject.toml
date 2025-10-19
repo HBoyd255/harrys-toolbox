@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "harrys-toolbox"
-version = "1.0.0"
+version = "1.0.1"
 dependencies = []
 authors = [{ name = "Harry Boyd" }]
 description = "Harry's Toolbox is a collection of lightweight Python utilities. Each designed to simplify a basic task, such as calculating the framerate of a video feed."

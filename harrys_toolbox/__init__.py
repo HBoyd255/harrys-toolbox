@@ -1,2 +1,2 @@
-from .FPSCounter import FPSCounter
-from .milliseconds import millis
+from ._fps_counter import FPSCounter
+from ._milliseconds import millis
