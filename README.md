@@ -37,3 +37,30 @@ while True:
 ```
 FPS: 96.02
 ```
+
+## Millis
+
+Returns the number of milliseconds since the module was imported, as an integer.
+This function is based on the
+[Arduino function of the same name](https://docs.arduino.cc/language-reference/en/functions/time/millis/).
+
+### Example Usage
+
+```python
+import time
+from harrys_toolbox import millis
+
+while True:
+    print(millis())
+
+    time.sleep(1)
+```
+
+### Terminal Output
+
+```
+0
+1001
+2001
+3002
+```
